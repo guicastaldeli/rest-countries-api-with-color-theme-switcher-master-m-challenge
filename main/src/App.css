@@ -354,6 +354,9 @@ button:hover {
 .light #fr .rr {
   background-color: white;
 }
+.light #fr #r a:hover {
+  background-color: rgba(0, 0, 0, 0.257);
+}
 .light #fr #ud {
   filter: brightness(0) invert(0);
 }

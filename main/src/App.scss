@@ -423,6 +423,14 @@ body {
                         background-color: #FFFF;
                     }
 
+                    #r {
+                        a {
+                            &:hover {
+                                background-color: rgba(0, 0, 0, 0.257);
+                            }
+                        }
+                    }
+
                     /* ud */
                         #ud {
                             filter: brightness(0) invert(0);

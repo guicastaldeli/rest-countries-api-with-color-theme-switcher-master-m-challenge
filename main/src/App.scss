@@ -1,0 +1,634 @@
+$df: 'Nunito Sans Normal';
+
+html {
+    font-family: $df;
+}
+
+body {
+    margin: 0;
+}
+
+/* general */
+    /* toggle theme button */
+        button {
+            left: 69.5vw !important;
+            top: 1.25rem !important;
+
+            border: 0;
+
+            font-family: $df;
+            font-size: 1rem;
+            font-weight: 550;
+            
+            background-color: transparent;
+            
+            /* hover */
+                &:hover {
+                    cursor: pointer;
+                }
+            /* */
+        }
+    /* */
+
+    /* bar */
+        .nav-bar, #t-, button {
+            position: relative;
+            left: 17.5rem;
+        }
+
+        .nav-bar {
+            display: flex;
+            flex-direction: row;
+
+            top: 1.8vw;
+            width: 70vw;
+            height: 2vw;
+
+            svg {
+                transform: scale(1.2);
+                position: fixed;
+
+                left: 19.5rem;
+                top: 7.2rem;
+            }
+
+            input {
+                width: 30rem;
+                height: 3.2rem;
+    
+                border: 0;
+                border-radius: 0.3rem;
+
+                font-family: $df;
+                font-size: 0.88rem;
+                padding-left: 4.5rem;
+
+                box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.072);
+
+                &::placeholder {
+                    position: absolute;
+                    left: 0.16rem;
+                }
+
+                &:focus {
+                    outline: none;
+                    border: 0.085rem solid #3079be;
+
+                    &::placeholder {
+                        position: absolute;
+                        left: 0.1rem;
+                    }
+                }
+
+                &::-webkit-search-cancel-button {
+                    -webkit-appearance: none;
+                    width: 2rem;
+                    height: 2rem;
+                    transform: scale(2);
+                    background: url('./svg/x.svg') no-repeat center;
+
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        .nav-bar- {
+            display: flex;
+            flex-direction: flex-end;
+
+            height: 4rem;
+
+            box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.128);
+
+            #t-, button {
+                top: 1.1rem;
+            }
+
+            #t- {
+                font-weight: bolder;
+                font-size: 1.2rem;
+
+                margin: 0;
+
+                width: fit-content;
+                height: fit-content;
+
+                /* hover */
+                    &:hover {
+                        cursor: pointer;
+                    }
+                /* */
+            }
+        }
+
+        /* filter */
+            #fr {
+                user-select: none;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                left: 33vw;
+                top: 0.45rem;
+                z-index: 2;
+
+                font-size: 0.85rem;
+                z-index: 2;
+
+                /* ud */
+                    #ud {
+                        position: relative;
+                        left: 0.8rem;
+                        top: 0.1rem;
+                        transform: scale(1);
+                    }
+                /* */
+
+                .frc {
+                    border-radius: 0.3rem;
+
+                    padding: 1rem 2.5rem;
+
+                    box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.072);
+
+                    /* hover */
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    /* */
+                }
+                
+                #frr {
+                    z-index: 3;
+
+                    //display: none;
+                }
+
+                a {
+                    position: relative;
+                    left: -1rem;
+                }
+
+                .rr {
+                    position: absolute;
+                    left: 2.5rem;
+                    top: 2.5rem;
+
+                    padding: 1.1rem 3rem;
+
+                    border-radius: 0.3rem;
+
+                    list-style-type: none;
+
+                    font-size: 0.85rem;
+
+                    #r {
+                        position: relative;
+
+                        margin-bottom: 0.6rem;
+
+                        a {
+                            position: relative;
+                            left: -1.3rem;
+                        }
+                    }
+                }
+            }
+
+        /* */
+    /* */
+
+    /* country list */
+        .cnt--- {
+            user-select: none;
+
+            position: relative;
+            width: 73.5vw;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            left: 17.5rem;
+            top: 6rem;
+
+            z-index: 0;
+            border-radius: 0.3rem;
+
+            .c-cnt-- {
+                width: 18rem;
+                height: 23rem;
+
+                border-radius: 0.3rem;
+
+                margin-bottom: 4.5rem;
+
+                box-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, 0.058);
+
+                /* hover */
+                    transition: background-color 0.13s ease;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                /* */
+        
+                /* el */
+                    #f- {
+                        width: 100%;
+                        height: 48%;
+                        object-fit: cover;
+                        border-radius: 0.3rem 0.3rem 0rem 0rem;
+                    }
+
+                    .if- {
+                        position: relative;
+
+                        width: 15rem;
+                        left: 1.45rem;
+                        top: 0.1rem;
+
+                        p {
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                        }
+
+                        span {
+                            font-weight: 550;
+
+                            a {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                    
+                    #aif- {
+                        display: flex;
+                        flex-direction: column;
+
+                        gap: 0.35rem;
+                    }
+                /* */
+            }
+        }
+    /* */
+
+    /* detail page */
+        .cd-c- {
+            #bk- {
+                position: relative;
+                top: 4rem !important;
+                left: 24.5rem !important;
+    
+                padding: 0.6rem 3rem;
+                border-radius: 0.3rem;
+    
+                box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.23);
+            }
+    
+            .c-cd-- {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                gap: 5.5rem;
+    
+                top: 8rem;
+    
+                /* el */
+                    #cd-n- {
+                        position: relative;
+                        top: 3.5rem;
+                        font-size: 2rem;
+                        font-weight: bolder;
+                    }
+    
+                    .a-i- {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row;
+    
+                        gap: 6.5rem;
+    
+                        span {
+                            font-weight: bold;
+                        }
+    
+                        a {
+                            font-weight: normal;
+                        }
+    
+                        .a-i-o- {
+                            display: flex;
+                            flex-direction: column;
+                        }
+    
+                        .a-i-t- {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+    
+                    #cd-f- {
+                        width: 35rem;
+                    }
+    
+                    .cd-i- {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+    
+                        gap: 4rem;
+                        top: -2rem;
+                    }
+    
+                    .bc- {
+                        display: flex;
+                        flex-direction: row;
+    
+                        p {
+                            font-weight: bold;
+                        }
+    
+                        div {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+    
+                            left: 0.7rem;
+    
+                            gap: 0.5rem;
+    
+                            span {
+                                font-size: 0.8rem;
+                                padding: 0.2rem 1.4rem;
+    
+                                margin: 0;
+                                width: fit-content;
+    
+                                box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.165);
+                                border-radius: 0.2rem;
+                            }
+                        }
+                    }
+                /* */
+            }
+        }
+    /* */
+/* */
+
+/* light */
+    .light {
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(200, 15%, 8%);
+
+        button {
+            background-color: white;
+            color: black;
+        }
+
+        /* bar */
+            .nav-bar- {
+                background-color: #FFFF;
+            }
+
+            .nav-bar {
+                input {
+                    &::placeholder {
+                        padding-left: 4.5rem;
+                        top: 1rem;
+                    }
+
+                    &:focus {
+                        &::placeholder {
+                            top: 0.95rem;
+                        }
+                    }
+                }
+            }
+    
+            /* filter */
+                #fr {  
+                    .frc {
+                        background-color: #FFFF;
+                    }
+
+                    #frr {
+                        background-color: white;
+                    }
+
+                    .rr {
+                        background-color: #FFFF;
+                    }
+
+                    /* ud */
+                        #ud {
+                            filter: brightness(0) invert(0);
+                        }
+                    /* */
+                }
+    
+            /* */
+        /* */
+    
+        /* country list */
+            .cnt--- {
+                .c-cnt-- {
+                    background-color: hsl(0, 0%, 100%);
+            
+                    /* hover */
+                        &:hover {
+                            background-color: rgba(0, 0, 0, 0.09);
+                        }
+                    /* */
+                }
+            }
+        /* */
+    
+        /* detail page */
+            #bk- {
+                background-color: #FFFF;
+
+                /* hover */
+                    transition: background-color 0.1s ease;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        background-color: rgba(0, 0, 0, 0.09);
+                    }
+                /* */
+            }
+
+            .c-cd-- {
+                /* el */
+                    #bcn- {
+                        /* hover */
+                            transition: background-color 0.1s ease;
+
+                            &:hover {
+                                cursor: pointer;
+
+                                background-color: rgba(0, 0, 0, 0.09);
+                            }
+                        /* */
+                    }
+
+                    .bc- {
+                        div {
+                            span {
+                                background-color: #FFFF;
+                            }
+                        }
+                    }
+                /* */
+            }
+        /* */
+    }
+/* */
+
+
+/* dark */
+    .dark {
+        background-color: hsl(207, 26%, 17%);
+        color: hsl(0, 0%, 100%);
+
+        button {
+            color: white;
+        }
+
+        /* bar */
+            .nav-bar {
+                input {
+                    background-color: hsl(209, 23%, 22%);
+
+                    color: #eaefef;
+
+                    &::placeholder {
+                        position: relative;
+                        
+                        color: #eaefef;
+                    }
+
+                    &::-webkit-search-cancel-button {
+                        filter: brightness(0) invert(1);
+                    }
+
+                    /* hover */
+                        &:hover {
+                            background-color: hsla(208, 23%, 22%, 0.659);
+                        }
+                    /* */
+                }
+            }
+            
+            .nav-bar- {
+                background-color: hsl(209, 23%, 22%);
+            }
+
+
+            /* filter */
+                #fr {
+                    width: fit-content;
+
+                    .frc {
+                        background-color: hsl(209, 23%, 22%);
+                    }
+
+                    #frr {
+                        background-color: hsl(209, 23%, 22%);
+
+                        #r {
+                            a {
+                                &:hover {
+                                    background-color: hsla(203, 18%, 19%, 0.88);
+                                }
+                            }
+                        }
+                    }
+
+                    .rr {
+                        background-color: hsl(209, 23%, 22%);
+                    }
+
+                    /* ud */
+                        #ud {
+                            filter: brightness(0) invert(1);
+                        }
+                    /* */
+                }
+
+            /* */
+        /* */
+
+        /* country list */
+            .cnt--- {
+                .c-cnt-- {
+                    background-color: hsl(209, 23%, 22%);
+            
+                    /* hover */
+                        transition: background-color 0.1s ease;
+                        
+                        &:hover {
+                            background-color: hsla(208, 23%, 22%, 0.659);
+                        }
+                    /* */
+                }
+            }
+        /* */
+
+        /* detail page */
+            #bk- {
+                background-color: hsl(209, 23%, 22%);
+
+                /* hover */
+                    transition: background-color 0.1s ease;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: hsla(208, 23%, 22%, 0.659);
+                    }
+                /* */
+            }
+
+            .c-cd-- {
+                /* el */
+                    #bcn- {
+                        /* hover */
+                            transition: background-color 0.1s ease;
+
+                            &:hover {
+                                cursor: pointer;
+                                background-color: hsla(208, 23%, 22%, 0.659);
+                            }
+                        /* */
+                    }
+
+                    .bc- {
+                        div {
+                            span {
+                                background-color: hsl(209, 23%, 22%);
+                            }
+                        }
+                    }
+                /* */
+            }
+        /* */
+    }
+/* */
+
+/* toggle theme */
+    .-tt {
+        img {
+            position: relative;
+            left: -0.5rem;
+            top: 0.1rem;
+        }
+        #dt {
+            filter: brightness(0) invert(1);
+        }
+    }
+/* */
+

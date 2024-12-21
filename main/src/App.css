@@ -1,0 +1,503 @@
+html {
+  font-family: "Nunito Sans Normal";
+}
+
+body {
+  margin: 0;
+}
+
+/* general */
+/* toggle theme button */
+button {
+  left: 69.5vw !important;
+  top: 1.25rem !important;
+  border: 0;
+  font-family: "Nunito Sans Normal";
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: transparent;
+  /* hover */
+  /* */
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* */
+/* bar */
+.nav-bar, #t-, button {
+  position: relative;
+  left: 17.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  top: 1.8vw;
+  width: 70vw;
+  height: 2vw;
+}
+.nav-bar svg {
+  transform: scale(1.2);
+  position: fixed;
+  left: 19.5rem;
+  top: 7.2rem;
+}
+.nav-bar input {
+  width: 30rem;
+  height: 3.2rem;
+  border: 0;
+  border-radius: 0.3rem;
+  font-family: "Nunito Sans Normal";
+  font-size: 0.88rem;
+  padding-left: 4.5rem;
+  box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.072);
+}
+.nav-bar input::-moz-placeholder {
+  position: absolute;
+  left: 0.16rem;
+}
+.nav-bar input::placeholder {
+  position: absolute;
+  left: 0.16rem;
+}
+.nav-bar input:focus {
+  outline: none;
+  border: 0.085rem solid #3079be;
+}
+.nav-bar input:focus::-moz-placeholder {
+  position: absolute;
+  left: 0.1rem;
+}
+.nav-bar input:focus::placeholder {
+  position: absolute;
+  left: 0.1rem;
+}
+.nav-bar input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 2rem;
+  transform: scale(2);
+  background: url("./svg/x.svg") no-repeat center;
+  cursor: pointer;
+}
+
+.nav-bar- {
+  display: flex;
+  flex-direction: flex-end;
+  height: 4rem;
+  box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.128);
+}
+.nav-bar- #t-, .nav-bar- button {
+  top: 1.1rem;
+}
+.nav-bar- #t- {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* hover */
+  /* */
+}
+.nav-bar- #t-:hover {
+  cursor: pointer;
+}
+
+/* filter */
+#fr {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 33vw;
+  top: 0.45rem;
+  z-index: 2;
+  font-size: 0.85rem;
+  z-index: 2;
+  /* ud */
+  /* */
+}
+#fr #ud {
+  position: relative;
+  left: 0.8rem;
+  top: 0.1rem;
+  transform: scale(1);
+}
+#fr .frc {
+  border-radius: 0.3rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0rem 0.05rem 1rem rgba(0, 0, 0, 0.072);
+  /* hover */
+  /* */
+}
+#fr .frc:hover {
+  cursor: pointer;
+}
+#fr #frr {
+  z-index: 3;
+}
+#fr a {
+  position: relative;
+  left: -1rem;
+}
+#fr .rr {
+  position: absolute;
+  left: 2.5rem;
+  top: 2.5rem;
+  padding: 1.1rem 3rem;
+  border-radius: 0.3rem;
+  list-style-type: none;
+  font-size: 0.85rem;
+}
+#fr .rr #r {
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+#fr .rr #r a {
+  position: relative;
+  left: -1.3rem;
+}
+
+/* */
+/* */
+/* country list */
+.cnt--- {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  width: 73.5vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  left: 17.5rem;
+  top: 6rem;
+  z-index: 0;
+  border-radius: 0.3rem;
+}
+.cnt--- .c-cnt-- {
+  width: 18rem;
+  height: 23rem;
+  border-radius: 0.3rem;
+  margin-bottom: 4.5rem;
+  box-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, 0.058);
+  /* hover */
+  transition: background-color 0.13s ease;
+  /* */
+  /* el */
+  /* */
+}
+.cnt--- .c-cnt--:hover {
+  cursor: pointer;
+}
+.cnt--- .c-cnt-- #f- {
+  width: 100%;
+  height: 48%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.3rem 0.3rem 0rem 0rem;
+}
+.cnt--- .c-cnt-- .if- {
+  position: relative;
+  width: 15rem;
+  left: 1.45rem;
+  top: 0.1rem;
+}
+.cnt--- .c-cnt-- .if- p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.cnt--- .c-cnt-- .if- span {
+  font-weight: 550;
+}
+.cnt--- .c-cnt-- .if- span a {
+  font-weight: 100;
+}
+.cnt--- .c-cnt-- #aif- {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+/* */
+/* detail page */
+.cd-c- #bk- {
+  position: relative;
+  top: 4rem !important;
+  left: 24.5rem !important;
+  padding: 0.6rem 3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.23);
+}
+.cd-c- .c-cd-- {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5rem;
+  top: 8rem;
+  /* el */
+  /* */
+}
+.cd-c- .c-cd-- #cd-n- {
+  position: relative;
+  top: 3.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.cd-c- .c-cd-- .a-i- {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 6.5rem;
+}
+.cd-c- .c-cd-- .a-i- span {
+  font-weight: bold;
+}
+.cd-c- .c-cd-- .a-i- a {
+  font-weight: normal;
+}
+.cd-c- .c-cd-- .a-i- .a-i-o- {
+  display: flex;
+  flex-direction: column;
+}
+.cd-c- .c-cd-- .a-i- .a-i-t- {
+  display: flex;
+  flex-direction: column;
+}
+.cd-c- .c-cd-- #cd-f- {
+  width: 35rem;
+}
+.cd-c- .c-cd-- .cd-i- {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  top: -2rem;
+}
+.cd-c- .c-cd-- .bc- {
+  display: flex;
+  flex-direction: row;
+}
+.cd-c- .c-cd-- .bc- p {
+  font-weight: bold;
+}
+.cd-c- .c-cd-- .bc- div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0.7rem;
+  gap: 0.5rem;
+}
+.cd-c- .c-cd-- .bc- div span {
+  font-size: 0.8rem;
+  padding: 0.2rem 1.4rem;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.165);
+  border-radius: 0.2rem;
+}
+
+/* */
+/* */
+/* light */
+.light {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+  /* bar */
+  /* filter */
+  /* */
+  /* */
+  /* country list */
+  /* */
+  /* detail page */
+  /* */
+}
+.light button {
+  background-color: white;
+  color: black;
+}
+.light .nav-bar- {
+  background-color: white;
+}
+.light .nav-bar input::-moz-placeholder {
+  padding-left: 4.5rem;
+  top: 1rem;
+}
+.light .nav-bar input::placeholder {
+  padding-left: 4.5rem;
+  top: 1rem;
+}
+.light .nav-bar input:focus::-moz-placeholder {
+  top: 0.95rem;
+}
+.light .nav-bar input:focus::placeholder {
+  top: 0.95rem;
+}
+.light #fr {
+  /* ud */
+  /* */
+}
+.light #fr .frc {
+  background-color: white;
+}
+.light #fr #frr {
+  background-color: white;
+}
+.light #fr .rr {
+  background-color: white;
+}
+.light #fr #ud {
+  filter: brightness(0) invert(0);
+}
+.light .cnt--- .c-cnt-- {
+  background-color: hsl(0, 0%, 100%);
+  /* hover */
+  /* */
+}
+.light .cnt--- .c-cnt--:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.light #bk- {
+  background-color: white;
+  /* hover */
+  transition: background-color 0.1s ease;
+  /* */
+}
+.light #bk-:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.light .c-cd-- {
+  /* el */
+  /* */
+}
+.light .c-cd-- #bcn- {
+  /* hover */
+  transition: background-color 0.1s ease;
+  /* */
+}
+.light .c-cd-- #bcn-:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.light .c-cd-- .bc- div span {
+  background-color: white;
+}
+
+/* */
+/* dark */
+.dark {
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+  /* bar */
+  /* filter */
+  /* */
+  /* */
+  /* country list */
+  /* */
+  /* detail page */
+  /* */
+}
+.dark button {
+  color: white;
+}
+.dark .nav-bar input {
+  background-color: hsl(209, 23%, 22%);
+  color: #eaefef;
+  /* hover */
+  /* */
+}
+.dark .nav-bar input::-moz-placeholder {
+  position: relative;
+  color: #eaefef;
+}
+.dark .nav-bar input::placeholder {
+  position: relative;
+  color: #eaefef;
+}
+.dark .nav-bar input::-webkit-search-cancel-button {
+  filter: brightness(0) invert(1);
+}
+.dark .nav-bar input:hover {
+  background-color: hsla(208, 23%, 22%, 0.659);
+}
+.dark .nav-bar- {
+  background-color: hsl(209, 23%, 22%);
+}
+.dark #fr {
+  width: -moz-fit-content;
+  width: fit-content;
+  /* ud */
+  /* */
+}
+.dark #fr .frc {
+  background-color: hsl(209, 23%, 22%);
+}
+.dark #fr #frr {
+  background-color: hsl(209, 23%, 22%);
+}
+.dark #fr #frr #r a:hover {
+  background-color: hsla(203, 18%, 19%, 0.88);
+}
+.dark #fr .rr {
+  background-color: hsl(209, 23%, 22%);
+}
+.dark #fr #ud {
+  filter: brightness(0) invert(1);
+}
+.dark .cnt--- .c-cnt-- {
+  background-color: hsl(209, 23%, 22%);
+  /* hover */
+  transition: background-color 0.1s ease;
+  /* */
+}
+.dark .cnt--- .c-cnt--:hover {
+  background-color: hsla(208, 23%, 22%, 0.659);
+}
+.dark #bk- {
+  background-color: hsl(209, 23%, 22%);
+  /* hover */
+  transition: background-color 0.1s ease;
+  /* */
+}
+.dark #bk-:hover {
+  cursor: pointer;
+  background-color: hsla(208, 23%, 22%, 0.659);
+}
+.dark .c-cd-- {
+  /* el */
+  /* */
+}
+.dark .c-cd-- #bcn- {
+  /* hover */
+  transition: background-color 0.1s ease;
+  /* */
+}
+.dark .c-cd-- #bcn-:hover {
+  cursor: pointer;
+  background-color: hsla(208, 23%, 22%, 0.659);
+}
+.dark .c-cd-- .bc- div span {
+  background-color: hsl(209, 23%, 22%);
+}
+
+/* */
+/* toggle theme */
+.-tt img {
+  position: relative;
+  left: -0.5rem;
+  top: 0.1rem;
+}
+.-tt #dt {
+  filter: brightness(0) invert(1);
+}
+
+/* *//*# sourceMappingURL=App.css.map */
